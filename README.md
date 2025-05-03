@@ -8,11 +8,13 @@ We believe the future of blockchains is lightweight trustless settlement of heav
 
 ### For Linux and macOS
 
-1. Install `rustup` by following the instructions at: [https://rustup.rs/](https://rustup.rs/)
-2. Install `choo`, the Hoon compiler:
-   ```
-   make install-choo
-   ```
+Install `rustup` by following their instructions at: [https://rustup.rs/](https://rustup.rs/)
+
+Install `choo`, the Hoon compiler:
+
+```
+make install-choo
+```
 
 ### For Windows (Using WSL)
 
@@ -55,6 +57,7 @@ To build and run Nockchain on Windows, you must use Windows Subsystem for Linux 
      cd /home/<username>/nockchain
      git clone https://github.com/zorp-corp/nockchain.git .
      ```
+   - **Note**: Avoid using a path under `/mnt/c` (e.g., a Windows filesystem path), as this may cause compiler errors when installing `choo`.
 
 5. **Install Choo**
    - In the Nockchain directory, run:
