@@ -10,22 +10,18 @@ We believe the future of blockchains is lightweight trustless settlement of heav
 
 Install `rustup` by following their instructions at: [https://rustup.rs/](https://rustup.rs/)
 
+If using Windows Subsystem for Linux (WSL):
+
+```
+export CARGO_TARGET_DIR=<location of nockchain>/target
+sudo apt install -y clang libclang-dev
+```
 
 Install `choo`, the Hoon compiler:
 
 ```
 make install-choo
 ```
-
-
-If using Windows Subsystem for Linux (WSL):
-
-```
-export CARGO_TARGET_DIR=<location of nockchain>/target
-make install-choo
-```
-
-
 
 ## Build
 
