@@ -74,8 +74,6 @@ make build-hoon-all
 make build
 ```
 
-**Note for WSL Users**: The build process may appear to stall on `drivers::exit: exit_driver: waiting for effect` for a while. This is normal behavior.
-
 ## Run
 
 To run a Nockchain node that publishes the genesis block:
